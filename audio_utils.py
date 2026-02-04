@@ -52,7 +52,6 @@ def analyze_voice(y, sr):
         confidence = max(confidence, 0.35)
 
 
-
     if not explanation:
         explanation.append("Natural human speech variations detected")
 
